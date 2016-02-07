@@ -54,11 +54,24 @@ class CreateRecipeVC: UIViewController, UIImagePickerControllerDelegate, UINavig
             let context = app.managedObjectContext
             let entity = NSEntityDescription.entityForName("Recipe", inManagedObjectContext: context)!
             let recipe = Recipe(entity: entity,insertIntoManagedObjectContext: context)
+            recipe.title = title
+            recipe.ingredients = recipeIngredients.text
+            recipe.steps = recipeSteps.text
+            recipe.setRecipeImage(recipeImg.image!)
             
+            context.insertObject(recipe)
             
+            do {
+                
+                try context.save()
+                
+            } catch {
+                
+                print("couldnt save recipe")
+            }
             
-            
-            
+            self.navigationController?.popToRootViewControllerAnimated(true)
+ 
         }
         
     }
