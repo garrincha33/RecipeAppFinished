@@ -15,6 +15,7 @@
 		1B311E681C67C4BF0061ABEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B311E661C67C4BF0061ABEB /* LaunchScreen.storyboard */; };
 		1B311E741C67CE6C0061ABEB /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B311E721C67CE6C0061ABEB /* Recipe+CoreDataProperties.swift */; };
 		1B311E751C67CE6C0061ABEB /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B311E731C67CE6C0061ABEB /* Recipe.swift */; };
+		1B311E771C67D4A30061ABEB /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B311E761C67D4A30061ABEB /* RecipeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +27,9 @@
 		1B311E641C67C4BF0061ABEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B311E671C67C4BF0061ABEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B311E691C67C4BF0061ABEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B311E721C67CE6C0061ABEB /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		1B311E731C67CE6C0061ABEB /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		1B311E721C67CE6C0061ABEB /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Recipe+CoreDataProperties.swift"; path = "../Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1B311E731C67CE6C0061ABEB /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Recipe.swift; path = ../Recipe.swift; sourceTree = "<group>"; };
+		1B311E761C67D4A30061ABEB /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +46,6 @@
 		1B311E4E1C67C4BE0061ABEB = {
 			isa = PBXGroup;
 			children = (
-				1B311E721C67CE6C0061ABEB /* Recipe+CoreDataProperties.swift */,
-				1B311E731C67CE6C0061ABEB /* Recipe.swift */,
 				1B311E591C67C4BE0061ABEB /* Recipiez */,
 				1B311E581C67C4BE0061ABEB /* Products */,
 			);
@@ -78,6 +78,8 @@
 		1B311E6F1C67CE210061ABEB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1B311E721C67CE6C0061ABEB /* Recipe+CoreDataProperties.swift */,
+				1B311E731C67CE6C0061ABEB /* Recipe.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -85,6 +87,7 @@
 		1B311E701C67CE270061ABEB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1B311E761C67D4A30061ABEB /* RecipeCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				1B311E5D1C67C4BE0061ABEB /* ViewController.swift in Sources */,
 				1B311E741C67CE6C0061ABEB /* Recipe+CoreDataProperties.swift in Sources */,
 				1B311E5B1C67C4BE0061ABEB /* AppDelegate.swift in Sources */,
+				1B311E771C67D4A30061ABEB /* RecipeCell.swift in Sources */,
 				1B311E631C67C4BF0061ABEB /* Recipiez.xcdatamodeld in Sources */,
 				1B311E751C67CE6C0061ABEB /* Recipe.swift in Sources */,
 			);

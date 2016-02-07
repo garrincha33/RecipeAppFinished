@@ -12,6 +12,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     @IBOutlet weak var tableView: UITableView!
     
+    var recipes = [Recipe]()
+    
     
     
 
@@ -19,7 +21,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         super.viewDidLoad()
         
         
-        
+        tableView.delegate = self
+        tableView.dataSource = self
         
         
         
@@ -29,7 +32,18 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        return UITableViewCell()
+        if let cell = tableView.dequeueReusableCellWithIdentifier("RecipeCell") as? RecipeCell {
+            
+            let recipe = recipes[indexPath.row]
+            
+            cell.configureCell(recipe)
+            return cell
+            
+        } else {
+            
+            
+            return RecipeCell()
+        }
         
     }
 
@@ -45,7 +59,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
       
             
-        return 0
+        return recipes.count
             
         
     }
