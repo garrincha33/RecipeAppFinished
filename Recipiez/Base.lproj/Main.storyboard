@@ -115,7 +115,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mhr-cI-feZ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sheboyigan" translatesAutoresizingMaskIntoConstraints="NO" id="mhr-cI-feZ">
                                 <rect key="frame" x="225" y="259" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="4cI-ff-XVw"/>
@@ -126,7 +126,7 @@
                                 <rect key="frame" x="225" y="259" width="150" height="150"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="ADD IMAGE">
-                                    <color key="titleColor" red="0.098039217293262482" green="0.098039217293262482" blue="0.098039217293262482" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CKi-CL-q4V">
@@ -184,4 +184,7 @@
             <point key="canvasLocation" x="768" y="1121"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="sheboyigan" width="800" height="533"/>
+    </resources>
 </document>

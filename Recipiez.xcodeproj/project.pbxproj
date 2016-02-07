@@ -16,6 +16,7 @@
 		1B311E741C67CE6C0061ABEB /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B311E721C67CE6C0061ABEB /* Recipe+CoreDataProperties.swift */; };
 		1B311E751C67CE6C0061ABEB /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B311E731C67CE6C0061ABEB /* Recipe.swift */; };
 		1B311E771C67D4A30061ABEB /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B311E761C67D4A30061ABEB /* RecipeCell.swift */; };
+		1B311E791C67DAF90061ABEB /* CreateRecipeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B311E781C67DAF90061ABEB /* CreateRecipeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		1B311E721C67CE6C0061ABEB /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Recipe+CoreDataProperties.swift"; path = "../Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		1B311E731C67CE6C0061ABEB /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Recipe.swift; path = ../Recipe.swift; sourceTree = "<group>"; };
 		1B311E761C67D4A30061ABEB /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		1B311E781C67DAF90061ABEB /* CreateRecipeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateRecipeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				1B311E5C1C67C4BE0061ABEB /* ViewController.swift */,
+				1B311E781C67DAF90061ABEB /* CreateRecipeVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				1B311E741C67CE6C0061ABEB /* Recipe+CoreDataProperties.swift in Sources */,
 				1B311E5B1C67C4BE0061ABEB /* AppDelegate.swift in Sources */,
 				1B311E771C67D4A30061ABEB /* RecipeCell.swift in Sources */,
+				1B311E791C67DAF90061ABEB /* CreateRecipeVC.swift in Sources */,
 				1B311E631C67C4BF0061ABEB /* Recipiez.xcdatamodeld in Sources */,
 				1B311E751C67CE6C0061ABEB /* Recipe.swift in Sources */,
 			);
